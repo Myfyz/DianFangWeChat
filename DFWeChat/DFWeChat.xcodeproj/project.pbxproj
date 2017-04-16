@@ -13,6 +13,7 @@
 		62354D2C1EA38E160038E514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62354D2A1EA38E160038E514 /* Main.storyboard */; };
 		62354D2E1EA38E160038E514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62354D2D1EA38E160038E514 /* Assets.xcassets */; };
 		62354D311EA38E160038E514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62354D2F1EA38E160038E514 /* LaunchScreen.storyboard */; };
+		62354D3A1EA38E680038E514 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 62354D391EA38E680038E514 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		62354D2D1EA38E160038E514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62354D301EA38E160038E514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62354D321EA38E160038E514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62354D381EA38E680038E514 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		62354D391EA38E680038E514 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				62354D2F1EA38E160038E514 /* LaunchScreen.storyboard */,
 				62354D321EA38E160038E514 /* Info.plist */,
 				62354D211EA38E160038E514 /* Supporting Files */,
+				62354D381EA38E680038E514 /* Person.h */,
+				62354D391EA38E680038E514 /* Person.m */,
 			);
 			path = DFWeChat;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				62354D291EA38E160038E514 /* ViewController.m in Sources */,
 				62354D261EA38E160038E514 /* AppDelegate.m in Sources */,
+				62354D3A1EA38E680038E514 /* Person.m in Sources */,
 				62354D231EA38E160038E514 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
